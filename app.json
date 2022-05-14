@@ -11,8 +11,8 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/FA9SH",
-    "repository": "https://github.com/USDDBOOT/Shadow",
+    "website": "https://t.me/ScolzeM",
+    "repository": "https://github.com/ScolzeWA/Music",
     "success_url": "https://t.me/KB_Shadow",
     "env": {
         "API_ID": {
@@ -30,12 +30,12 @@
         "BOT_USERNAME": {
             "description": "قم بوضع يوزر بوتك بدون علامة @",
             "required": true,
-            "value": "USDDBOT"
+            "value": "ScolzeMusic_bot"
         },
         "ASSISTANT_NAME": {
             "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
             "required": true,
-            "value": "SHADOW_MUSIC0"
+            "value": "Scolze_Music"
         },
         "SESSION_NAME": {
             "description": "قم بوضع كود تيرمكس هنا",
@@ -44,7 +44,7 @@
         "SUDO_USERS": {
             "description": "قم بوضع ايدي المطور الاساسي",
             "required": true,
-            "value": "1970797144"
+            "value": "1491415522"
         },
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
@@ -76,7 +76,7 @@
         "ALIVE_NAME": {
             "description": "ضع هنا اسم الحساب المساعد",
             "required": true,
-            "value": "𝑺𝑯𝑨𝑫𝑶𝑾 𝑴𝑼𝑺𝑰𝑪"
+            "value": "S𝑐𝑜𝑙𝑧𝑒 M𝑢𝑠𝑖𝑐 ♬⁩"
         },
         "MONGODB_URL": {
             "description": "لا تغيره!",
@@ -86,7 +86,7 @@
         "UPSTREAM_REPO": {
             "description": "اتركه كما هوا",
             "required": true,
-            "value": "https://github.com/USDDBOOT/Shadow"
+            "value": "https://github.com/ScolzeWA/Music"
         }
     },
     "addons": [],
