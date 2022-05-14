@@ -13,7 +13,7 @@
     ],
     "website": "https://t.me/ScolzeM",
     "repository": "https://github.com/ScolzeWA/Music",
-    "success_url": "https://t.me/KB_Shadow",
+    "success_url": "https://t.me/Scolze_WA",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
@@ -49,17 +49,17 @@
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": "S150D"
+            "value": "ScolzeM1"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "FA9SH"
+            "value": "ScolzeM"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": "KB_Shadow"
+            "value": "Scolze_WA"
         },
         "BOT_PHOTO": {
             "description": "ضع لينك صورة البوت من هنا @T_ELEGRAPH00BOT",
