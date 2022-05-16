@@ -82,7 +82,7 @@ async def skip(c: Client, m: Message):
 
 
 @Client.on_message(
-    command(["stop", f"stop@{BOT_USERNAME}", "end", f"نهاء", f"انهاء", f"اسكت", f"ٲسكت"])
+    command(["stop", f"end", f"نهاء", f"انهاء", f"اسكت", f"ٲسكت"])
     & other_filters
 )
 @authorized_users_only
@@ -117,7 +117,7 @@ async def stop(client, m: Message):
 
 
 @Client.on_message(
-    command(["pause", f"pause@{BOT_USERNAME}", f"vpause", f"ايقاف مؤقت", f"ايقاف"]) & other_filters
+    command(["pause", f"vpause", f"ايقاف مؤقت", f"ايقاف"]) & other_filters
 )
 @authorized_users_only
 async def pause(client, m: Message):
@@ -135,7 +135,7 @@ async def pause(client, m: Message):
 
 
 @Client.on_message(
-    command(["resume", f"resume@{BOT_USERNAME}", f"vresume", f"كمل", f"استكمال", f"استئناف"]) & other_filters
+    command(["resume", f"vresume", f"كمل", f"استكمال", f"استئناف"]) & other_filters
 )
 @authorized_users_only
 async def resume(client, m: Message):
@@ -153,7 +153,7 @@ async def resume(client, m: Message):
 
 
 @Client.on_message(
-    command(["mute", f"mute@{BOT_USERNAME}", f"vmute", f"ميوت"]) & other_filters
+    command(["mute", f"vmute", f"ميوت"]) & other_filters
 )
 @authorized_users_only
 async def mute(client, m: Message):
@@ -171,7 +171,7 @@ async def mute(client, m: Message):
 
 
 @Client.on_message(
-    command(["unmute", f"unmute@{BOT_USERNAME}", f"vunmute", f"فك الميوت", f"شيل الميوت"]) & other_filters
+    command(["unmute", f"vunmute", f"فك الميوت", f"شيل الميوت"]) & other_filters
 )
 @authorized_users_only
 async def unmute(client, m: Message):
